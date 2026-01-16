@@ -8,6 +8,7 @@ import { AppProvider } from "@/contexts/AppContext";
 // Screens
 import SplashScreen from "./pages/SplashScreen";
 import LoginScreen from "./pages/LoginScreen";
+import SignupScreen from "./pages/SignupScreen";
 import ForgotPasswordScreen from "./pages/ForgotPasswordScreen";
 import DashboardScreen from "./pages/DashboardScreen";
 import CreateJobScreen from "./pages/CreateJobScreen";
@@ -34,6 +35,7 @@ const App = () => (
           <Routes>
             <Route path="/" element={<SplashScreen />} />
             <Route path="/login" element={<LoginScreen />} />
+            <Route path="/signup" element={<SignupScreen />} />
             <Route path="/forgot-password" element={<ForgotPasswordScreen />} />
             <Route path="/dashboard" element={<DashboardScreen />} />
             <Route path="/create-job" element={<CreateJobScreen />} />
