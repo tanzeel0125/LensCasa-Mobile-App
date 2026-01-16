@@ -78,8 +78,8 @@
     --shadow-xl: 0 20px 25px -5px hsl(210 20% 12% / 0.1), 0 8px 10px -6px hsl(210 20% 12% / 0.1);
     
     /* Camera Overlay */
-    --camera-overlay: 0 0% 0% / 0.6;
-    --camera-guide: 174 62% 50% / 0.8;
+    --camera-overlay: 0 0% 0%;
+    --camera-guide: 174 62% 50%;
     
     /* Sidebar (keeping for compatibility) */
     --sidebar-background: 0 0% 98%;
