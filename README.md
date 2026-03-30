@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+# LensCasa Mobile App
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+LensCasa Mobile is a production-ready, camera-first mobile application for iOS and Android, built to help real estate professionals capture high-quality photos, upload them seamlessly, and receive fully processed media—powered by an existing backend.
 
-## How can I edit this code?
+This repository contains the Phase 1 mobile app, focused on capture guidance, uploads, job tracking, payments, and media delivery.
 
-There are several ways of editing your application.
+## Core Features
 
-**Use Lovable**
+Authentication
+Email / Google / Apple login
+Profile & account settings
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Camera & Capture
+In-app camera
+Horizon / leveling guidance
+Multi-exposure (bracketed JPG) capture (no HDR merge)
 
-Changes made via Lovable will be committed automatically to this repo.
+Uploads
+Presigned URL uploads
+Background upload support
+Progress tracking & retry handling
 
-**Use your preferred IDE**
+Job Management
+Create jobs via API
+Job status tracking (queued → processing → complete)
+Push notifications
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Deliverables
+Photo gallery with before/after comparison
+Video preview & download
+Share to device
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Payments
+Apple & Google in-app purchases
+Subscriptions + one-time purchases
+Receipt validation via backend
+Billing history
 
-Follow these steps:
+## Tech Stack
+React Native or Flutter (cross-platform)
+Native modules (camera, sensors, in-app purchases)
+REST API integration (token-based auth)
+Presigned uploads for media handling
+Push notifications (iOS & Android)
+Project Scope (Phase 1)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Included:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Mobile app (iOS + Android)
+Camera-first capture experience
+Upload & job workflow
+Payments & billing
+Media delivery UI
+QA + store-ready builds
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Excluded:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Backend/API development
+Photo editing / AI processing
+Offline capture & sync
+Admin dashboards
+Floor plan integrations (Phase 2)
+Getting Started
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
