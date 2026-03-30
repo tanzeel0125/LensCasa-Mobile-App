@@ -1,6 +1,6 @@
 # LensCasa Mobile App
 
-## Project info
+## Project info 
 
 LensCasa Mobile is a production-ready, camera-first mobile application for iOS and Android, built to help real estate professionals capture high-quality photos, upload them seamlessly, and receive fully processed media—powered by an existing backend.
 
